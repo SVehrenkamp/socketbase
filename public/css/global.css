@@ -1,0 +1,19 @@
+/* Global Styles Here */
+div, p, button, table, tr, td {
+  box-sizing: border-box;
+}
+
+/* Colors */
+.lt-grey { color: #cccccc }
+.dk-grey { color: #666666 }
+
+/* Text Alignments*/
+.text-centered { text-align: center }
+.text-right { text-align: right }
+.text-left { text-align: left }
+
+/* Positioning */
+.absolute { position: absolute }
+.relative { position: relative }
+.fixed { position: fixed }
+.centered {margin: 0 auto }

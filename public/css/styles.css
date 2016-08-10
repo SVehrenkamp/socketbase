@@ -1,0 +1,38 @@
+@import "global.css";
+
+/* Chat */
+#chat-window {
+  width: 100%;
+  border: 1px solid #cccccc;
+  height: 300px;
+  overflow-y: auto;
+}
+div.message-container {
+  margin: 0;
+  float: left;
+  clear: both;
+}
+p.user {
+    margin: 0 1em;
+    padding: 0;
+    display: block;
+    float: left;
+    font-weight: bold;
+}
+p.message {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: left;
+}
+
+/* Form */
+.socket--form {
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    border: 1px solid #cccccc;
+}
+.socket--form .text-input {
+  width: 100%;
+}

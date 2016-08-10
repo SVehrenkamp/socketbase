@@ -1,0 +1,23 @@
+{
+  "name": "socketbase",
+  "version": "1.0.0",
+  "authors": [
+    "SVehrenkamp <scott@vehrenkamp.com>"
+  ],
+  "description": "real time database",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "~2.0.4"
+  }
+}
